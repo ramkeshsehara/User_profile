@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Personal detail"
+        android:textAlignment="center"
+        android:textColor="@color/heading"
+        android:background="@color/personal"
+        android:id="@+id/textView" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Name"
+                android:id="@+id/textView1"
+                android:layout_weight="0.45" />
+
+
+            <TextView
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ramkesh Meena"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView2"
+                android:layout_weight="0.47" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="gender"
+                android:id="@+id/textView3"
+                android:layout_weight="0.45" />
+
+            <TextView
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Male"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView4"
+                android:layout_weight="0.47" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Date of Birth"
+                android:id="@+id/textView5"
+                android:layout_weight="0.45" />
+
+            <TextView
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="14-03-1995"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView6"
+                android:textColor="@color/val"
+                android:layout_weight="0.47" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Email Id"
+                android:id="@+id/textView7"
+                android:layout_weight="0.45" />
+
+            <TextView
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="ug201310026@iitj.ac.in"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/val"
+                android:id="@+id/textView8"
+                android:layout_weight="0.45" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Mobile Number"
+                android:id="@+id/textView9"
+                android:layout_weight="0.45" />
+
+            <TextView
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="9672107905"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/val"
+                android:id="@+id/textView10"
+                android:layout_weight="0.47" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Blood Group"
+                android:id="@+id/textView11"
+                android:layout_weight="0.45" />
+
+            <TextView
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="A+"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView12"
+                android:layout_weight="0.47" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Height"
+                android:id="@+id/textView13"
+                android:layout_weight="0.45" />
+
+            <TextView
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="6 Feet"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView14"
+                android:layout_weight="0.47" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Weight"
+                android:id="@+id/textView15"
+                android:layout_weight="0.45" />
+
+            <TextView
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="50Kg"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView16"
+                android:layout_weight="0.47" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Vital Information"
+            android:textAlignment="center"
+            android:textColor="@color/heading"
+            android:background="@color/personal"
+            android:id="@+id/textView17" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="84dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Heart Rate"
+                android:id="@+id/textView18"
+                android:layout_weight="0.40"/>
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="-"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView19"
+                android:layout_weight="0.30" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="-"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView20"
+                android:layout_weight="0.30" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Blood Pressure"
+                android:id="@+id/textView21"
+                android:layout_weight="0.30"/>
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="-"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView22"
+                android:layout_weight="0.18" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="-"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView23"
+                android:layout_weight="0.18" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="-"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView24"
+                android:layout_weight="0.18" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:id="@+id/textView25"
+                android:layout_weight="0.30"/>
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Pulse"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView26"
+                android:layout_weight="0.18" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Systolic"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView27"
+                android:layout_weight="0.18" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Diastolic"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView28"
+                android:layout_weight="0.18" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Blood Glucose levels"
+                android:id="@+id/textView29"
+                android:layout_weight="0.30"/>
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="-"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView30"
+                android:layout_weight="0.18" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="-"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView31"
+                android:layout_weight="0.18" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="-"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView32"
+                android:layout_weight="0.18" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:id="@+id/textView33"
+                android:layout_weight="0.30"/>
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Before Meal"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView34"
+                android:layout_weight="0.18" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Before Bed"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView35"
+                android:layout_weight="0.18" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="After Bed"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView36"
+                android:layout_weight="0.18" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Lipid Profile"
+                android:id="@+id/textView37"
+                android:layout_weight="0.30"/>
+
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="-"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView38"
+                android:layout_weight="0.18" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="-"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView39"
+                android:layout_weight="0.18" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="-"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView40"
+                android:layout_weight="0.18" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="-"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView41"
+                android:layout_weight="0.18" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:id="@+id/textView42"
+                android:layout_weight="0.30"/>
+
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Chole Strol"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView43"
+                android:layout_weight="0.18" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Triglyc eridges "
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView44"
+                android:layout_weight="0.18" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="HDL"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView45"
+                android:layout_weight="0.18" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="LDL"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView46"
+                android:layout_weight="0.18" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="HbA1c"
+                android:id="@+id/textView47"
+                android:layout_weight="0.45" />
+
+
+            <TextView
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="-"
+                android:textColor="@color/val"
+                android:textAlignment="viewEnd"
+                android:id="@+id/textView48"
+                android:layout_weight="0.45" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
